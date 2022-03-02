@@ -29,5 +29,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    { 
+      "source": "/discord",
+      "destination": "https://discord.com/invite/jKbekcgA4S", 
+      "permanent": true
+    }
   ]
 }
