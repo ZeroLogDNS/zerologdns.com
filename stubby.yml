@@ -18,10 +18,10 @@ upstream_recursive_servers:
     tls_auth_name: "dot.zerologdns.com"
     tls_pubkey_pinset:
       - digest: "sha256"
-        value: lLcaG829A+RlMKOtf/cXCrWOt8CmP4TQUaXlnDrlQJI=
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
         
   - address_data: 2a03:4000:9:6bf:54df:25ff:fe7f:9231
     tls_auth_name: "dot.zerologdns.com"
     tls_pubkey_pinset:
       - digest: "sha256"
-        value: lLcaG829A+RlMKOtf/cXCrWOt8CmP4TQUaXlnDrlQJI=
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
