@@ -10,3 +10,5 @@ ZeroLogDNS official Website.
 [Alpine.js](https://alpinejs.dev/)
 
 [GoatCounter](https://github.com/arp242/goatcounter)
+
+[jQuery](https://jquery.com/)
