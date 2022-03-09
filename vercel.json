@@ -26,7 +26,12 @@
         {
           "key" : "Content-Security-Policy",
           "value" : "upgrade-insecure-requests"
+        },
+        {
+          "key" : "Cache-Control",
+          "value" : "no-cache"
         }
+      
       ]
     }
   ],
