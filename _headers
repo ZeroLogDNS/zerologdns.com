@@ -1,0 +1,8 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=()
+  Content-Security-Policy: upgrade-insecure-requests
+  Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
