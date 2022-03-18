@@ -20,7 +20,21 @@ upstream_recursive_servers:
       - digest: "sha256"
         value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
         
+  - address_data: 94.16.120.86
+    tls_auth_name: "dot.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
+ 
+## IPV6
+ 
   - address_data: 2a03:4000:9:6bf::1
+    tls_auth_name: "dot.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
+     
+  - address_data: 2a03:4000:21:a25::1
     tls_auth_name: "dot.zerologdns.com"
     tls_pubkey_pinset:
       - digest: "sha256"
