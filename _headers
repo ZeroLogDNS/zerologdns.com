@@ -5,4 +5,8 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: interest-cohort=()
   Content-Security-Policy: upgrade-insecure-requests
-  Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+  Cache-Control: max-age=0
+  Cache-Control: no-store
+  Cache-Control: must-revalidate
+  Cache-Control: proxy-revalidate
+  Cache-Control: no-cache
