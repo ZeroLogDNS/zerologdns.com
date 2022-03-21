@@ -15,8 +15,8 @@
     <meta name="author" content="ZeroLogDNS">
     <meta property="og:image" content="https://zeroLogdns.com/static/images/zerologdns.webp">
     <meta property="og:image:type" content="image/webp">
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="720" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="1080" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ZeroLogDNS" />
     <meta name="twitter:description" content="Prevent your ISP From Sharing Your Personal Data! Use ZeroLogDNS for free with fast & secure technologies!" />
@@ -61,6 +61,7 @@
             overflow-x: hidden;
             scrollbar-width: none;
             -ms-overflow-style: none;
+            scroll-behavior: smooth;
         }
         ::-webkit-scrollbar {
           display: none;
@@ -68,33 +69,49 @@
     </style>
 </head>
 <body style="font-family: Alatsi">
+<!-- change -->
+<section>
+    <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+        <div class="flex flex-wrap sm:flex-nowrap sm:justify-center sm:items-center bg-yellow-600 relative sm:gap-3 px-4 sm:pr-8 ms:px-8 py-3">
+          <div class="order-1 sm:order-none w-11/12 sm:w-auto max-w-screen-sm inline-block text-white text-sm md:text-base mb-2 sm:mb-0">We changed our IPV6 addresses!!!</div>
+      
+          <a href="#servers" class="order-last sm:order-none w-full sm:w-auto inline-block bg-yellow-800 hover:bg-yellow-700 active:bg-indigo-800 focus-visible:ring ring-indigo-300 text-white text-xs md:text-sm font-semibold text-center whitespace-nowrap rounded-lg outline-none transition duration-100 px-4 py-2">Show me!</a>
+        </div>
+      </div>
+</section>
 
-<!-- navbar -->
+<!-- nav -->
 <section class="relative w-full px-8 text-gray-700 bg-white body-font">
     <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-        <a href="/" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">ZeroLogDNS<span class="text-purple-500">.</span></a>
+        <a href="/#home" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">ZeroLogDNS<span class="text-purple-500">.</span></a>
 
         <nav class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
-            <a href="/" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+            <a href="/#home" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
                 <span class="block">Home</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
                     <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
-            <a href="/disclaimer" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+            <a href="/#roadmap" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Roadmap</span>
+                <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                </span>
+            </a>
+            <a href="/#disclaimer" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
                 <span class="block">Disclaimer</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
                     <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
-            <a href="/servers" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">Servers</span>
+            <a href="/#privacy" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Privacy Policy</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
                     <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
-            <a href="/about" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">About</span>
+            <a href="/#servers" class="relative font-medium leading-6 text-gray-600 transition duration-150 ease-out hover:text-gray-900" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
+                <span class="block">Servers</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
                     <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-900" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
@@ -102,63 +119,162 @@
         </nav>
     </div>
 </section>
-
-<!-- Tartalom -->
-<section class="px-2 pt-32 bg-white md:px-0">
+<!-- tartalom -->
+<section id="home" class="px-2 h-screen flex items-center bg-white md:px-0">
     <div class="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
         <h1 class="text-4xl font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-6xl md:text-center">
             <span class="block">Prevent your ISP From Sharing Your <span class="block mt-1 text-purple-500 lg:inline lg:mt-0">Personal Data</span></span>
         </h1>
-        <p class="w-full mx-auto text-base text-left text-gray-500 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
+        <p class="w-full mx-auto text-base text-left text-gray-600 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
           ZeroLogDNS will take your DNS queries to a safer place!
         </p>
         <p id="dns-test" class="w-full mx-auto text-base text-left text-gray-500 md:max-w-md sm:text-lg lg:text-lg md:max-w-3xl md:text-center">
             Testing Plase Wait...
         </p>
         <div class="relative flex flex-col justify-center md:flex-row md:space-x-4">
-            <a href="/servers" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-purple-500 md:mb-0 hover:bg-purple-600 md:w-auto rounded-none rounded">
+            <a href="/#servers" class="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-purple-500 md:mb-0 hover:bg-purple-600 md:w-auto rounded-none rounded">
                 Give it a try
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12" class=""></line>
                     <polyline points="12 5 19 12 12 19" class=""></polyline>
                 </svg>
             </a>
-            <a href="/disclaimer" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 hover:bg-gray-200 hover:text-gray-600 rounded-none rounded">
+            <a href="/#disclaimer" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 hover:bg-gray-200 hover:text-gray-600 rounded-none rounded">
                 Learn More
             </a>
         </div>
     </div>
 </section>
-<!-- faq -->
-<section class="relative py-16 bg-white min-w-screen animation-fade animation-delay">
-    <div class="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
-        <h3 class="mt-1 text-2xl font-bold text-left text-gray-800 sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">
-          <span class="text-purple-500">F</span>requently <span class="text-purple-500">A</span>sked <span class="text-purple-500">Q</span>uestions
-        </h3>
-        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 shadow-lg lg:w-5/6 xl:w-2/3 rounded-none rounded">
-            <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">What is this?</h3>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-              ZeroLogDNS is a hobby non-profit project which is not logging any DNS query information. 
-            </p>
+<!-- roadmap -->
+<section class="max-w-screen-md px-4 md:px-8 mx-auto text-gray-600 body-font overflow-hidden">
+    <div class="container py-4 mx-auto">
+        <h1 id="roadmap" class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Roadmap</h1>
+      <div class="-my-8 divide-y-2 divide-gray-100 py-0">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="mt-1 text-gray-500 text-sm">29 Jan 2022</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">The project has started!</h2>
+            <p class="leading-relaxed">On 29 January 2022, the ZeroLogDNS project was launched. The idea behind it was to provide a DNS service without tracking and censorship. I created the whole project for myself, but later decided to make it public for everyone!</p>
+          </div>
         </div>
-        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 shadow-lg lg:w-5/6 xl:w-2/3 rounded-none rounded">
-            <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">What does the ZeroLogDNS servers logging?</h3>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-              There is absolutely no logging! I keep logs only of the traffic bandwidth. Your IP and Query log is very simply directed in to <span class="text-neutral-900">/dev/null</span> (/dev/null is a black hole in Linux systems)
-            </p>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="mt-1 text-gray-500 text-sm">30 Jan 2022</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">New Member!</h2>
+            <p class="leading-relaxed">I am not alone! My old friend <a href="https://bitlords.hu"><u>Dániel Máthé</u></a> has joined the project! We are now working together to provide the best and most stable service for everyone! </p>
+          </div>
         </div>
-        <div class="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 shadow-lg lg:w-5/6 xl:w-2/3 rounded-none rounded">
-            <h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">How can i use this service?</h3>
-            <p class="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-              This service does not offer plain-text-dns. If you want to use this service you need a DoT/DoH client. You can use DoH simply from your browser like Firefox or Chrome.
-            </p>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="text-sm text-gray-500">2 Feb 2022</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">DNS over TLS</h2>
+            <p class="leading-relaxed">As the project only started with DNS over HTTPS it was not fully suitable for all uses. Therefore, on 02 February 2022, DNS over TLS was added to the services.</p>
+          </div>
         </div>
-</section>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="mt-1 text-gray-500 text-sm">12 Feb 2022</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">1 Million requests!!!</h2>
+              <p class="leading-relaxed">On 12 February 2022, we noticed that we had reached over 1 million requests. Since we not logging ip addresses we do not know how many users we have, but we know that 1 million requests were not made by 2-3 users! </p>
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="mt-1 text-gray-500 text-sm">5 Mar 2022</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Our first server!</h2>
+              <p class="leading-relaxed">On 5 March 2022, we bought our first server which is a <a href="https://www.dell.com/en-us/work/shop/productdetailstxn/poweredge-r630"><u>Dell PowerEdge R630!</u></a> As the project grows bigger and bigger we need more resources. The server will be located in a Datacenter in Karlsruhe, Germany.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+<!-- disclaimer -->
+<section class="py-40">
+    <div class="bg-white sm:py-8 lg:py-12">
+        <div id="disclaimer" class="max-w-screen-md px-4 md:px-8 mx-auto">
+          <h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Disclaimer</h1>
+      
+          <p class="text-gray-600 sm:text-lg mb-6 md:mb-8">
+            This service is non-profit. We cannot guarantee 100% availability and continuity of the service. We cannot be held liable for any expenses, damages, losses or claims... By using the service, you accept the Terms and Conditions. <br /><br />
+          </p>
+      
+          <h2 id="privacy" class="text-gray-800 text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Privacy Policy</h2>
+      
+          <p class="text-gray-600 sm:text-lg mb-6 md:mb-8">In this section you can read about when, for how long and what data we store on our servers.</p>
+      
+          <ul class="list-disc list-inside text-gray-600 sm:text-lg mb-6 md:mb-8">
+            <li>We don't store any ip address.</li>
+            <li>We don't disclose any information to third parties.</li>
+            <li>We don't profile our users and not selling any data.</li>
+            <li>In order to speed up the service, we cache the domain names served by our servers.</li>
+            <li>Our system will store the response time and the success of the request for up to 3 weeks.</li>
+          </ul>
 
+          <p class="text-gray-600 sm:text-lg mb-6 md:mb-8">By using the service, you accept the privacy statement.</p>
+      
+          <blockquote class="text-gray-600 sm:text-lg italic border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">“If our IDS/IPS system detects a DDOS or other attack, the ip address is immediately logged and stored on the server for 3 days.”</blockquote>
+       </div>
+      </div>
+    </div>
+
+<!-- Szerver list -->
+<section class="py-40">
+    <h1 id="servers" class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Servers</h1>
+    <div class="px-10 mt-10">
+		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
+			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Balanced</span></p>
+				<div class="pt-2">
+					<h3 class="font-semibold">Description:</p>
+						<p class="font-thin mt-2">This is not a Server. This domain is balancing queries between Delta and Onyx (recommended to use this)</p>
+				</div>
+				<h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://doh.zerologdns.com/query</span></p>
+		</div>
+	</div>
+    <div class="px-10 mt-10">
+		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
+			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Onyx</span></p>
+				<div class="pt-2">
+					<h3 class="font-semibold">Description:</p>
+						<p class="font-thin mt-2">This Server doesn't support unencrypted dns requests! (Port 53)</p>
+				</div>
+				<h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://dns.onyx.zerlogdns.com/query</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></p>
+				<h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:9:6bf::1</span></p>
+		</div>
+	</div>
+    <div class="px-10 mt-10">
+		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
+			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Delta</span></p>
+				<div class="pt-2">
+					<h3 class="font-semibold">Description:</p>
+						<p class="font-thin mt-2">This Server doesn't support unencrypted dns requests! (Port 53)</p>
+				</div>
+				<h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://dns.delta.zerlogdns.com/query</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></p>
+				<h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">94.16.120.86</span></p>
+                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:21:a25::1</span></p>
+		</div>
+	</div>
+</section>
 <!-- Footer -->
 <section class="text-gray-700 bg-white body-font">
     <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <a href="/" class="text-xl font-black leading-none text-gray-900 select-none logo">ZeroLogDNS<span class="text-purple-500">.</span></a>
+        <a href="/#home" class="text-xl font-black leading-none text-gray-900 select-none logo">ZeroLogDNS<span class="text-purple-500">.</span></a>
         <p class="mt-4 text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 Kristóf Török & Dániel Máthé - ZeroLogDNS</p>
         <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
 
