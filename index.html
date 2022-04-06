@@ -25,35 +25,6 @@
     <meta name="twitter:site" content="@zerologdns" />
     <link rel="stylesheet" type="text/css" href="/static/css/font.css" media="all">
     <link rel="stylesheet" type="text/css" href="/static/css/tailwind.css" media="all">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "publisher": {  
-                "@type": "Organization",
-                "name": "ZeroLogDNS",
-                "url": "https://zeroLogdns.com",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://zeroLogdns.com/static/images/zerologdns.webp"
-                }
-            },
-            "headline": "ZeroLogDNS",
-            "url": "https://zerologdns.com",
-            "image": {
-                "@type": "ImageObject",
-                "url": "https://zeroLogdns.com/static/images/zerologdns.webp",
-                "width": 1280,
-                "height": 720
-            },
-            "keywords": "Logs, DNS, Free",
-            "description": "Prevent your ISP From Sharing Your Personal Data! Use ZeroLogDNS for free with fast & secure technologies!",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://zerologdns.com"
-            }
-        }
-    </script>
 </head>
 <body style="font-family: Alatsi">
 <!-- nav -->
@@ -218,46 +189,39 @@
     <h1 id="servers" class="text-gray-800 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Servers</h1>
     <div class="px-10 mt-10">
 		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
-			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Balanced</span></p>
-				<div class="pt-2">
-					<h3 class="font-semibold">Description:</p>
-						<p class="font-thin mt-2">This is not a Server. This domain is balancing queries between Delta and Onyx (recommended to use this)</p>
-				</div>
+			<h3 class="mb-2 font-semibold">DNS over HTTPS</h3>
 				<h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://doh.zerologdns.com/query</span></p>
 		</div>
 	</div>
     <div class="px-10 mt-10">
 		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
-			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Onyx</span></p>
-				<div class="pt-2">
-					<h3 class="font-semibold">Description:</p>
-						<p class="font-thin mt-2">This Server doesn't support unencrypted dns requests! (Port 53)</p>
-				</div>
-				    <h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://dns.onyx.zerologdns.com/query</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></p>
-                <h3 class="truncate border-t mb-2 mt-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></p>
-				        <h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:9:6bf::1</span></p>
+			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Onyx</span></h3>
+				    <h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></h3>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></h3>
+                <h3 class="truncate border-t mb-2 mt-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></h3>
+				        <h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124</span></h3>
+                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:9:6bf::1</span></h3>
 		</div>
 	</div>
     <div class="px-10 mt-10">
 		<div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
-			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Delta</span></p>
-				<div class="pt-2">
-					<h3 class="font-semibold">Description:</p>
-						<p class="font-thin mt-2">This Server doesn't support unencrypted dns requests! (Port 53)</p>
-				</div>
-				    <h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://dns.delta.zerologdns.com/query</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></p>
-                <h3 class="truncate border-t mb-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></p>
-				        <h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">94.16.120.86</span></p>
-                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:21:a25::1</span></p>
+			<h3 class="mb-2 font-semibold">Name: <span class="font-thin">Delta</span></h3>
+				    <h3 class="border-t mb-2 pt-3 font-semibold">Server: <span class="font-thin">Netcup GmbH</span></h3>
+                <h3 class="border-t mb-2 pt-3 font-semibold">DoT: <span class="font-thin">dot.zerologdns.com</span></h3>
+                <h3 class="truncate border-t mb-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></h3>
+				        <h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">94.16.120.86</span></h3>
+                <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:21:a25::1</span></h3>
 		</div>
 	</div>
+
+  <h2 id="filtered" class="py-16 text-gray-800 text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Filtered</h2>
+
+  <div class="bg-white rounded-md max-w-3xl mx-auto p-4 space-y-4 shadow-lg">
+    <h3 class="mb-2 font-semibold">AD-Block (beta)</h3>
+      <h3 class="border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">https://ad-block.zerologdns.com/query</span></p>
+  </div>
 </section>
-<!-- Footer -->
+
 <section class="text-gray-700 bg-white body-font">
     <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
         <a href="/#home" class="text-xl font-black leading-none text-gray-900 select-none logo">ZeroLogDNS<span class="text-purple-500">.</span></a>
