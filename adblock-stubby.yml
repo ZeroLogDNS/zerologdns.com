@@ -1,0 +1,42 @@
+resolution_type: GETDNS_RESOLUTION_STUB
+dns_transport_list:
+  - GETDNS_TRANSPORT_TLS
+
+dnssec_return_status: GETDNS_EXTENSION_TRUE
+tls_authentication: GETDNS_AUTHENTICATION_REQUIRED
+tls_query_padding_blocksize: 128
+edns_client_subnet_private : 1
+round_robin_upstreams: 1
+idle_timeout: 10000
+listen_addresses:
+  - 127.0.0.1
+  - 0::1
+
+appdata_dir: "/var/cache/stubby"
+upstream_recursive_servers:
+## ZeroLogDNS
+  - address_data: 37.221.197.124
+    tls_auth_name: "ad-block.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
+        
+  - address_data: 94.16.120.86
+    tls_auth_name: "ad-block.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
+ 
+## IPV6
+ 
+  - address_data: 2a03:4000:9:6bf::1
+    tls_auth_name: "ad-block.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
+     
+  - address_data: 2a03:4000:21:a25::1
+    tls_auth_name: "ad-block.zerologdns.com"
+    tls_pubkey_pinset:
+      - digest: "sha256"
+        value: R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=
