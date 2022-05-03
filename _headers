@@ -10,4 +10,4 @@
   Cache-Control: must-revalidate
   Cache-Control: proxy-revalidate
   Cache-Control: no-cache
-  Onion-Location http://zldnscunddx43vmwp6qxz5xokbl7cz2irbsbggaugeywv6kzuiznjiad.onion
+  Onion-Location: http://zldnscunddx43vmwp6qxz5xokbl7cz2irbsbggaugeywv6kzuiznjiad.onion
