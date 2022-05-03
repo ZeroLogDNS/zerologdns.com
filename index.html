@@ -23,11 +23,12 @@
     <meta name="twitter:url" content="https://zerologdns.com" />
     <meta name="twitter:image" content="https://zeroLogdns.com/static/images/zerologdns.webp" />
     <meta name="twitter:site" content="@zerologdns" />
-    <meta name='dmca-site-verification' content='TUE2QW1aamh4Y3VBSTQ1TE1abW9Xdz090' />
     <link rel="stylesheet" type="text/css" href="/static/css/font.css" media="all">
     <link rel="stylesheet" type="text/css" href="/static/css/tailwind.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/static/css/preloader.css">
 </head>
 <body style="font-family: Alatsi">
+<div id="preloader"></div>
 <!-- nav -->
 <section class="relative w-full px-8 text-gray-700 bg-white body-font">
     <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
@@ -202,6 +203,7 @@
                 <h3 class="border-t mb-2 pt-3 font-semibold">TLS Auth(AD-Block): <span class="font-thin">ad-block.zerologdns.com</span></h3>
 				        <h3 class="border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124, 94.16.120.86</span></h3>
                 <h3 class="border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:9:6bf::1, 2a03:4000:21:a25::1</span></h3>
+                <h3 class="truncate border-t mb-2 mt-2 pt-3 font-semibold">TLS-PIN: <span class="font-thin">R3hcMOAGw0WFztuG2skTodoHp8IGid3Qg63Cn7YUYoM=</span></h3>
 		</div>
 	</div>
 
@@ -234,8 +236,9 @@
             </a>
             
         </span>
-
-        <p class="mt-4 text-base text-gray-700 sm:ml-4 sm:pl-5 sm:border-l sm:border-gray-200 sm:mt-0"><a href="https://ko-fi.com/zerologdns"> Buy us a <a class="text-blue-500" href="https://ko-fi.com/zerologdns#">Ko-fi</a> </a></p>
+          <!-- Ko-fi -->
+          <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+        <p class="mt-4 text-base text-gray-700 sm:ml-4 sm:pl-5 sm:border-l sm:border-gray-200 sm:mt-0"><script type='text/javascript'>kofiwidget2.init('Buy us a Coffee', '#29abe0', 'I3I5BWJ0K');kofiwidget2.draw();</script> </a></p> 
     </div>
 </section>
 
@@ -247,15 +250,7 @@
 <script src="/static/js/alpine.js"></script>
 <!-- Plau -->
 <script defer data-domain="zerologdns.com" src="https://plau.zerologdns.com/js/plausible.js"></script>
-<!-- Ko-Fi -->
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('zerologdns', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support Us',
-    'floating-chat.donateButton.background-color': '#9f7aea',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+<!-- preload -->
+<script src="/static/js/preloader.js"></script>
 </body>
 </html>
