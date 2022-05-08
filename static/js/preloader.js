@@ -16,7 +16,7 @@ function enableScroll() {
 }
 
 window.addEventListener("load", function(){
-    disableScroll()
+    disableScroll();
     loader.style.display = "none";
     enableScroll();
 })
