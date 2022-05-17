@@ -1,6 +1,6 @@
 #preloader {
 
-    background: white url(/static/images/preloader.gif) no-repeat center center;
+    background: white url(https://cdn.statically.io/gh/ZeroLogDNS/zerologdns.com/main/static/images/preloader.gif) no-repeat center center;
     position: fixed;
     width: 100%;
     height: 100vh;
