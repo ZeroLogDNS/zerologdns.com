@@ -22,7 +22,7 @@ $.ajax({
 
 var sidn_dnssec = {};
 sidn_dnssec.timer = null;
-sidn_dnssec.timeout = 800;
+sidn_dnssec.timeout = 500;
 sidn_dnssec.img_test = "https://servfail.sidnlabs.nl/1x1.png"
 sidn_dnssec.img_checking = "static/images/dnssec/dnssec_checking.png"
 sidn_dnssec.img_success = "static/images/dnssec/dnssec_secure.png"
