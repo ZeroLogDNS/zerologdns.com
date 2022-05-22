@@ -3,12 +3,12 @@ $.ajax({
     cache: false,
     statusCode: {
         200: function() {
-            document.getElementById('dns-test').innerHTML = "You are using ZeroLogDNS!🟢";
+            document.getElementById('dns-test').innerHTML = "You are using ZeroLogDNS! 🟢";
 
         }
     },
     error:function(){
-        document.getElementById('dns-test').innerHTML = "You are not using ZeroLogDNS!🔴";
+        document.getElementById('dns-test').innerHTML = "You are not using ZeroLogDNS! 🔴";
     }   
 });
 
