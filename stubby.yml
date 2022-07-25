@@ -16,10 +16,9 @@ upstream_recursive_servers:
 ## ZeroLogDNS
   - address_data: 185.207.105.31
     tls_auth_name: "dot.zerologdns.com" 
-  - address_data: 94.16.120.86
+  - address_data: 37.221.197.124
     tls_auth_name: "dot.zerologdns.com"
   - address_data: 2a03:4000:9:6bf::1
     tls_auth_name: "dot.zerologdns.com"   
   - address_data: 2a03:4000:1e:f0::1
     tls_auth_name: "dot.zerologdns.com"
-
