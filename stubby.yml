@@ -22,3 +22,4 @@ upstream_recursive_servers:
     tls_auth_name: "dot.zerologdns.com"   
   - address_data: 2a03:4000:1e:f0::1
     tls_auth_name: "dot.zerologdns.com"
+
