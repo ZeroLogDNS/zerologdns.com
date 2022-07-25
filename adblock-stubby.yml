@@ -14,11 +14,11 @@ listen_addresses:
 appdata_dir: "/var/cache/stubby"
 upstream_recursive_servers:
 ## ZeroLogDNS
-  - address_data: 37.221.197.124
+  - address_data: 185.207.105.31
     tls_auth_name: "ad-block.zerologdns.com" 
-  - address_data: 94.16.120.86
+  - address_data: 37.221.197.124
     tls_auth_name: "ad-block.zerologdns.com"
   - address_data: 2a03:4000:9:6bf::1
-    tls_auth_name: "ad-block.zerologdns.com"  
-  - address_data: 2a03:4000:21:a25::1
+    tls_auth_name: "ad-block.zerologdns.com"   
+  - address_data: 2a03:4000:1e:f0::1
     tls_auth_name: "ad-block.zerologdns.com"
