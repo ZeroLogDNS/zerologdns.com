@@ -1,5 +1,5 @@
 $.ajax({
-    url: "https://t.zerologdns.net/?id=" + Math.floor(100000 + Math.random() * 900000),
+    url: "https://t.zerologdns.net?id=" + Math.floor(Math.random() * 100000),
     cache: false,
     success(response) {
         if (response.Response == "yes") {
