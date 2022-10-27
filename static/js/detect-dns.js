@@ -1,6 +1,8 @@
 $.ajax({
     url: "https://t.zerologdns.net",
     cache: false,
+    type: "GET",
+    dataType: "json",
     success(response) {
         if (response.Response == "yes") {
              document.getElementById('dns-test').innerHTML = "You are using ZeroLogDNS! 🟢";
