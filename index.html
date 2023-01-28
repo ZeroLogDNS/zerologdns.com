@@ -24,38 +24,37 @@
     <meta name="twitter:image" content="/static/images/zerologdns.webp" />
     <meta name="twitter:site" content="@zerologdns" />
     <link rel="stylesheet" type="text/css" href="/static/css/font.css" media="all">
-    <script src="https://cdn.tailwindcss.com/3.2.4"></script>
-    <script type='text/javascript' src='/static/js/7ddf32e17a6ac5ce04a8ecbf782ca509.js'></script>
-    <noscript>This website needs javascript to work properly! </noscript>
+    <link rel="stylesheet" type="text/css" href="/output.css" media="all">
 </head>
-<body style="font-family: Alatsi" class="bg-slate-900">
+<body style="font-family: Alatsi" class="bg-[#23272d]">
+
 <!-- nav -->
 <section class="relative w-full px-8 text-gray-400 body-font">
-    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
-        <a href="/#home" class="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-gray-300 select-none">ZeroLogDNS<span class="text-purple-500">.</span></a>
-        <nav class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
+    <div class="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl 3xl:max-w-[75%]">
+        <a href="/#home" class="relative z-10 flex items-center w-auto text-2xl 3xl:text-3xl font-extrabold leading-none text-gray-300 select-none">ZeroLogDNS<span class="text-purple-500">.</span></a>
+        <nav class="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base 3xl:text-xl md:-ml-5 md:py-0 md:absolute">
             <a href="/#home" class="relative font-medium leading-6 text-gray-300 transition duration-150 ease-out" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">Home</span>
+                <span class="block">[Home]</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
             <a href="/#disclaimer" class="relative font-medium leading-6 text-gray-300 transition duration-150 ease-out" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">Disclaimer</span>
+                <span class="block">[Disclaimer]</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
             <a href="/#privacy" class="relative font-medium leading-6 text-gray-300 transition duration-150 ease-out" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">Privacy</span>
+                <span class="block">[Privacy]</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
             <a href="/#servers" class="relative font-medium leading-6 text-gray-300 transition duration-150 ease-out" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false">
-                <span class="block">Servers</span>
+                <span class="block">[Servers]</span>
                 <span class="absolute bottom-0 left-0 inline-block w-full h-0.5 -mb-1 overflow-hidden">
-                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 h-full transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
+                    <span x-show="hover" class="absolute inset-0 inline-block w-full h-1 transform bg-gray-300" x-transition:enter="transition ease duration-200" x-transition:enter-start="scale-0" x-transition:enter-end="scale-100" x-transition:leave="transition ease-out duration-300" x-transition:leave-start="scale-100" x-transition:leave-end="scale-0" style="display: none;"></span>
                 </span>
             </a>
         </nav>
@@ -64,48 +63,57 @@
 
 <!-- tartalom -->
 <section id="home" class="px-2 h-screen flex items-center md:px-0">
-    <div class="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
-        <h1 class="text-4xl font-extrabold tracking-tight text-center text-gray-300 sm:text-5xl md:text-6xl">
-            <span class="block"><a>Prevent your ISP From Sharing Your </a><br class="hidden lg:block"><span class="block mt-1 text-purple-600 lg:inline lg:mt-0"><a>Personal Data</a></span></span>
+    <div class="container items-center max-w-6xl 3xl:max-w-full px-5 mx-auto space-y-6 text-center">
+        <h1 class="text-4xl font-extrabold tracking-tight text-center text-gray-300 sm:text-5xl md:text-6xl 3xl:text-8xl ">
+            <span class="block"><a>Prevent your ISP From Sharing Your </a><br class="hidden lg:block"><span class="block mt-1 text-transparent bg-clip-text bg-gradient-to-tl from-[#bb83f7] to-[#f36c63] lg:inline lg:mt-0"><a class="">Personal Data</a></span></span>
         </h1>
-        <p class="w-full mx-auto text-base text-center text-gray-300 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl">
+        <p class="w-full mx-auto text-base text-center text-gray-300 md:max-w-md sm:text-lg lg:text-2xl 3xl:text-3xl 3xl: max-w-full">
           ZeroLogDNS will take your DNS queries to a safer place!
         </p>
-        <p id="dns-test" class="w-full mx-auto text-base text-center text-gray-300 md:max-w-md sm:text-lg lg:text-lg md:max-w-3xl md:text-center">
+
+        <p id="dns-test" class="w-full mx-auto text-base text-center text-gray-300 md:max-w-md sm:text-lg lg:text-lg md:text-center">
             Testing Plase Wait...
         </p>
         <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
           <div class="mt-3 rounded-lg sm:mt-0">
             <a href="/#servers">
-              <button class="items-center block px-5 py-4 text-base font-medium text-center text-gray-300 transition duration-500 ease-in-out transform bg-purple-600 lg:px-10 rounded-xl hover:bg-violet-700">Give it a try</button>
+              <button class="items-center block 3xl:px-16 3xl:py-5 px-5 py-4 text-base 3xl:text-xl font-medium text-center text-gray-300 transition duration-500 ease-in-out transform bg-purple-600 lg:px-10 rounded-xl hover:bg-purple-700">Give it a try</button>
             </a>
           </div>
           <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
             <a href="/#disclaimer">
-              <button class="shadow-md shadow-purple-500/20 hover:shadow-lg hover:shadow-purple-500/50 items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-gray-300 transition ease-in-out transform border-2 border-gray-300 shadow-md rounded-xl">Learn more</button>
+              <button class="shadow-purple-500/20 3xl:px-16 3xl:py-5 hover:shadow-lg 3xl:text-xl hover:shadow-[#bb83f7]/50 items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-gray-300 transition ease-in-out transform border-2 border-gray-300 shadow-md rounded-xl">Learn more</button>
             </a>
           </div>
+         </div>
         </div>
-    </div>
 </section>
 
 <!-- disclaimer -->
 <section class="py-30">
-    <div class="sm:py-8 lg:py-12">
-        <div id="disclaimer" class="max-w-screen-md px-4 md:px-8 mx-auto">
-          <h1 class="text-gray-200 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Disclaimer</h1>
+    <div class="sm:py-8 lg:py-12 ">
+        <div id="disclaimer" class="max-w-screen-md 3xl:max-w-screen-lg px-4 md:px-8 mx-auto">
+          <h1 class="text-2xl text-transparent bg-clip-text bg-gradient-to-tl from-[#bb83f7] to-[#f36c63] sm:text-3xl 3xl:text-5xl font-bold text-center mb-4 md:mb-6">Disclaimer</h1>
       
-          <p class="text-gray-300 sm:text-lg mb-6 md:mb-8">
+          <p class="text-gray-300 3xl:text-2xl sm:text-lg mb-6 md:mb-8">
             This service is non-profit. We cannot guarantee 100% availability and continuity of the service. We cannot be held liable for any expenses, damages, losses or claims... By using the service, you accept the Terms and Conditions. <br /><br />
           </p>
 
-          <blockquote class="text-gray-300 sm:text-lg italic border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">“This service cannot 100% hide from your service provider what pages you are visiting. IP addresses and unencrypted SNI can still provide information to your ISP!”</blockquote>
+          <blockquote class="text-gray-300 sm:text-lg 3xl:text-xl italic border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">“This service cannot 100% hide from your service provider what pages you are visiting. IP addresses and unencrypted SNI can still provide information to your ISP!”</blockquote>
       
-          <h2 id="privacy" class="text-gray-200 text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Privacy Policy</h2>
-      
-          <p class="text-gray-300 sm:text-lg mb-6 md:mb-8">In this section you can read about when, for how long and what data we store on our servers.</p>
-      
-          <ul class="list-disc list-inside text-gray-300 sm:text-lg mb-6 md:mb-8">
+          <h2 id="privacy" class="text-transparent bg-clip-text bg-gradient-to-tl from-[#bb83f7] to-[#f36c63] 3xl:text-3xl text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">About us</h2>
+
+          <p class="text-gray-300 3xl:text-2xl sm:text-lg mb-6 md:mb-8">
+            We are just a few administrators from around the world who really don't like the lack of privacy on the internet, so we're trying to change that in small steps. We don't have high expectations, as our aim is to open people's eyes and provide a service where we make sure no customer data is used. We're happy to publish most of our infrastructure solutions on our Github page, and if someone doesn't want to use the version we're running, a fully self-hosted pre-configured solution will be developed.
+          </p>
+
+          <h2 id="privacy" class="text-transparent bg-clip-text bg-gradient-to-tl from-[#bb83f7] to-[#f36c63] 3xl:text-3xl text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Privacy Policy</h2>
+            
+          <p class="text-gray-300 3xl:text-2xl sm:text-lg mb-6 md:mb-8">
+            In today's online world, there is no privacy, everything and everywhere is monitored, every move, conversation, click and search. This is why ZeroLogDNS was created, to eliminate this tracking. Not only do we serve our users over a secure connection, but we also follow a strict "no logs" policy and do not store any data that could be used to identify our users. Everyone here is completely anonymous.
+          </p>
+
+          <ul class="list-disc 3xl:text-2xl list-inside text-gray-300 sm:text-lg mb-6 md:mb-8">
             <li>We don't store any ip address.</li>
             <li>We don't disclose any information to third parties.</li>
             <li>We don't profile our users and are not selling any data.</li>
@@ -113,17 +121,9 @@
             <li>Our system will store the response time and the success of the request for up to 3 weeks.</li>
           </ul>
 
-          <p class="text-gray-300 sm:text-lg mb-6 md:mb-8">By using the service, you accept the privacy statement.</p>
+          <p class="text-gray-300 3xl:text-2xl sm:text-lg mb-6 md:mb-8">By using the service, you accept the privacy statement.</p>
       
-          <blockquote class="text-gray-300 sm:text-lg italic border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">“If our IDS/IPS system detects a DDOS or other attack, the ip address is immediately logged and stored on the server for 3 days.”</blockquote>
-
-          <h2 id="privacy" class="text-gray-200 text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Changelog</h2>
-
-          <p class="text-gray-300 sm:text-lg mb-6 md:mb-8">The AD and Tracker blocking version is no longer available, we dropped it as it's simply too much computing power, and we prefer no censorship anyway :)</p>
-
-          <h2 id="privacy" class="text-gray-200 text-xl text-center sm:text-2xl font-semibold mb-2 md:mb-4">Why is ZeroLogDNS better?</h2>
-
-          <p class="text-gray-300 sm:text-lg mb-6 md:mb-8">In fact, we are not better than other DNS providers. We probably currently have a slower service than other large DNS providers. The difference between us and other big DNS providers is that there are no big companies behind ZeroLogDNS. We just hate the fact that there is no privacy on the internet so we are trying to change that in small steps. We maintain the whole service with our own money and we have no revenue from the service except from your support on our <a href="https://ko-fi.com/I3I5BWJ0K"><u>ko-fi</u></a> page. We are happy to answer any questions at our email address: <script>document.write(_0x59cc);</script></p>
+          <blockquote class="text-gray-300 3xl:text-xl sm:text-lg italic border-l-4 pl-4 md:pl-6 mb-6 md:mb-8">“If our IDS/IPS system detects a DDOS or other attack, the ip address is immediately logged and stored on the server for 3 days.”</blockquote>
 
        </div>
       </div>
@@ -132,71 +132,69 @@
 
 <!-- Szerver list -->
 <section class="py-12">
-    <h1 id="servers" class="text-gray-200 text-2xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Servers</h1>
+    <h1 id="servers" class="text-transparent bg-clip-text bg-gradient-to-tl from-[#bb83f7] to-[#f36c63] text-2xl 3xl:text-5xl sm:text-3xl font-bold text-center mb-4 md:mb-6">Servers</h1>
     <div class="px-10 mt-10">
-		<div class="border-2 border-gray-300 transition rounded-xl max-w-3xl mx-auto p-4 space-y-4 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/50">
+		<div class="border-2 border-gray-300 3xl:text-2xl transition rounded-xl max-w-3xl 3xl:max-w-5xl mx-auto p-4 space-y-4 shadow-lg shadow-[#111]-500/20 hover:shadow-xl hover:shadow-purple-500/50">
 			<h3 class="text-gray-300 mb-2 font-semibold">DNS over HTTPS</h3>
-				<h3 class=" text-gray-300 border-t mb-2 pt-3 font-semibold">Unfiltered: <span class="font-thin">https://doh.zerologdns.com/query</span></h3>
+				<h3 class=" text-gray-300 border-t mb-2 pt-3 font-semibold">Unfiltered: <span class="font-thin">https://dns.zerologdns.com/dns-query</span></h3>
 		</div>
 	</div>
     <div class="px-10 mt-10">
-		<div class="border-2 border-gray-300 transition rounded-xl max-w-3xl mx-auto p-4 space-y-4 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/50">
+		<div class="border-2 3xl:text-2xl border-gray-300 transition rounded-xl max-w-3xl 3xl:max-w-5xl mx-auto p-4 space-y-4 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/50">
 			<h2 class="text-gray-300 mb-2 font-semibold">DNS over TLS</h2>
-                <h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">TLS Auth(Unfiltered): <span class="font-thin">dot.zerologdns.com</span></h3>
-                <h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">Private DNS(Unfiltered): <span class="font-thin">getdns.in</span></h3>
-		<h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124, 185.207.105.31</span></h3>
+                <h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">TLS Auth: <span class="font-thin">tls://dns.zerologdns.com</span></h3>
+                <h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">IPV4: <span class="font-thin">37.221.197.124, 185.207.105.31</span></h3>
                 <h3 class="text-gray-300 border-t mb-2 pt-3 font-semibold">IPV6: <span class="font-thin">2a03:4000:9:6bf::1, 2a03:4000:1e:f0::1</span></h3>
-                <h3 class="text-gray-300 md:mb-8 font-thin">On Android please use the domain "getdns.in" otherwise it will not let you connect!</h3>
+		</div>
+	</div>
+    <div class="px-10 mt-10">
+		<div class="border-2 3xl:text-2xl border-gray-300 transition rounded-xl max-w-3xl 3xl:max-w-5xl mx-auto p-4 space-y-4 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/50">
+			<h2 class="text-gray-300 mb-2 font-semibold">DNS over Tor (currently not available)</h2>
+                <h3 class="text-gray-300 overflow-auto border-t mb-2 pt-3 font-semibold">DoH: <span class="font-thin">http://dnsdohipeufzs4omhftiq574bi7pjgkctluync6sjqqykn4ksndqrrqd.onion/dns-query</span></h3>
+                <h3 class="text-gray-300 overflow-auto border-t mb-2 pt-3 font-semibold">TCP: <span class="font-thin">tcp://dnstcpf4wmjrjqsdj3ozop6dbcwzolwcw35itucgjgzmmcxmsmaurnid.onion</span></h3>
 		</div>
 	</div>
 </section>
 
 <section class=" text-gray-300 body-font">
-    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
-        <a href="/#home" class="text-xl font-black leading-none select-none logo">ZeroLogDNS<span class="text-purple-500">.</span></a>
-        <p class="mt-4 text-sm sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 ZeroLogDNS</p>
-        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+    <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl 3xl:max-w-[75%] sm:flex-row">
+        <a href="/#home" class="text-xl 3xl:text-3xl font-black leading-none select-none logo">ZeroLogDNS<span class="text-purple-500">.</span></a>
+        <p class="mt-4 text-sm sm:ml-4 sm:pl-4 3xl:text-xl sm:border-l sm:border-gray-200 sm:mt-0">© ZeroLogDNS - Made with ❤️ for privacy lovers!</p>
+        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-1 sm:justify-start">
 
 
-            <a href="https://github.com/ZeroLogDNS" class="hover:text-purple-500">
+            <a href="https://github.com/ZeroLogDNS" class="hover:text-black">
                 <span class="sr-only">GitHub</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-6 h-6 3xl:w-8 3xl:h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <a href="https://twitter.com/zerologdns" class="hover:text-purple-500">
+            <a href="https://twitter.com/zerologdns" class="hover:text-blue-500">
                 <span class="sr-only">Twitter</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-6 h-6 3xl:w-8 3xl:h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd" d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <a href="https://zerologdns.com/discord" class="hover:text-purple-500">
+            <a href="https://zerologdns.com/discord" class="hover:text-[#5663ec]">
                 <span class="sr-only">Discord</span>
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <svg class="w-6 h-6 3xl:w-8 3xl:h-8" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
                     <path fill-rule="evenodd" d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"  clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <!-- 
-            <a href="https://zerologdns.com/gitter" class="hover:text-purple-500">
-              <span class="sr-only">Gitter</span>
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                  <path  fill-rule="evenodd" d="M 6 2 L 6 19 L 8 19 L 8 2 L 6 2 z M 12 6 L 12 30 L 14 30 L 14 6 L 12 6 z M 18 6 L 18 30 L 20 30 L 20 6 L 18 6 z M 24 6 L 24 19 L 26 19 L 26 6 L 24 6 z" clip-rule="evenodd"></path>
-              </svg>
-          </a>
-            -->
+
             
         </span>
           <!-- Ko-fi -->
           <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-        <p class="mt-4 text-base sm:ml-4 sm:pl-5 sm:border-l sm:border-gray-200 sm:mt-0"><script type='text/javascript'>kofiwidget2.init('Buy us a Coffee', '#A855F7', 'I3I5BWJ0K');kofiwidget2.draw();</script> </a></p> 
+        <p class="mt-4 sm:ml-4 sm:pl-5 sm:border-l sm:border-gray-200 sm:mt-0"><script type='text/javascript'>kofiwidget2.init('Buy us a Coffee', '#A855F7', 'I3I5BWJ0K');kofiwidget2.draw();</script> </a></p> 
     </div>
 </section>
 
 <!-- jquery -->
 <script src="/static/js/jquery.min.js"></script>
 <!-- DNS -->
-<script src="https://combinatronics.io/ZeroLogDNS/zerologdns.com/main/static/js/detect-dns.js"></script>
-<!-- Alpinejs -->
+<script src="/static/js/detect-dns.js"></script>
+<!-- Alpine-->
 <script src="/static/js/alpine.js"></script>
 </body>
 </html>
