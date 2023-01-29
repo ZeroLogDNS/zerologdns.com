@@ -7,9 +7,9 @@ $.ajax({
         } else if (response.Response == "no") {
              document.getElementById('dns-test').innerHTML = "You are not using ZeroLogDNS! 🔴";
         } else if (response.Response == "unavailable") {
-             document.getElementById('dns-test').innerHTML = "ZeroLogDNS back-end is not available!⚠️";
+             document.getElementById('dns-test').innerHTML = "Service is not available!⚠️";
         } else if (response.Response == "blocked") {
-             document.getElementById('dns-test').innerHTML = "The request was blocked from your network.💀";
+             document.getElementById('dns-test').innerHTML = "Your request is blocked💀";
         }
     },
     error:function(){
