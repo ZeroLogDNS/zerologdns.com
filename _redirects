@@ -1,5 +1,7 @@
-/discord    https://discord.com/invite/4AY3kaJGmW
-/home       /#home
 /disclaimer /#disclaimer
+/discord    https://discord.com/invite/4AY3kaJGmW
+/doh        https://dns.zerologdns.com/dns-query
+/doh-json   https://dns.zerologdns.com/dns-query?name=example.com&type=A
+/home       /#home
 /privacy    /#privacy
 /servers    /#servers
