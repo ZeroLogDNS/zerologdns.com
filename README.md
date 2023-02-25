@@ -8,8 +8,6 @@ ZeroLogDNS official Website.
 
 [Google Fonts](https://fonts.google.com/)
 
-[Alpine.js](https://alpinejs.dev/)
-
 [jQuery](https://jquery.com/)
 
 ## License
