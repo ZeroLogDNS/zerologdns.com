@@ -16,3 +16,5 @@ $.ajax({
         document.getElementById('dns-test').innerHTML = "Unable to connect!🔌";
     }
 });
+
+// Code: Dason#3967
