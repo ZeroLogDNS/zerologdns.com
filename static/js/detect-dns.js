@@ -9,7 +9,7 @@ $.ajax({
         } else if (response.Response == "unavailable") {
              document.getElementById('dns-test').innerHTML = "Service is not available!⚠️";
         } else if (response.Response == "blocked") {
-             document.getElementById('dns-test').innerHTML = "Your request is blocked💀";
+             document.getElementById('dns-test').innerHTML = "Your request is blocked!💀";
         }
     },
     error:function(){
